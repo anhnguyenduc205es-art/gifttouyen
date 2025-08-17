@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Happy Birthday Uyên!",
-  description: "Một bất ngờ sinh nhật đầy cảm xúc, lời chúc từ trái tim và lá thư tự gõ =))."
+  description: "Chúc mừng sinh nhật Tố Uyên."
 };
 
 export const viewport = {
