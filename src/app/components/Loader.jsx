@@ -30,13 +30,13 @@ export default function Loader() {
                     Preparing Something Special
                 </motion.h1>
 
-                <motion.p
+                {/* <motion.p
                     className="text-purple-300 text-lg mt-4"
                     animate={{ opacity: [0.5, 1, 0.5] }}
                     transition={{ duration: 1.5, repeat: Infinity }}
                 >
                     For someone very special...
-                </motion.p>
+                </motion.p> */}
             </div>
         </motion.div>
     )
