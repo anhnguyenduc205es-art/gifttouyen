@@ -19,7 +19,7 @@ export default function MailTruck({ onNext }) {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `Chúc mừng sinh nhật ngừi Uyên , Tuổi mới chúc em lúc nào cũng cười tươi, gặp toàn chuyện vui,gặp nhiều may mắn. Mong em luôn hạnh phúc, làm gì cũng thuận lợi và có thật nhiều kỷ niệm đẹp bên gia đình, bạn bè nhé 🎂✨`
+    const letterText = `Chúc mừng sinh nhật ngừi Uyên , Tuổi mới chúc em lúc nào cũng cười tươi, gặp toàn chuyện vui, gặp nhiều may mắn. Mong em luôn hạnh phúc, làm gì cũng thuận lợi và có thật nhiều kỷ niệm đẹp bên gia đình, bạn bè nhé 🎂✨`
 
     useEffect(() => {
         if (showText) {
@@ -146,10 +146,9 @@ export default function MailTruck({ onNext }) {
                                         initial={{ opacity: 0, y: 20 }}
                                         animate={{ opacity: 1, y: 0 }}
                                         transition={{ delay: 1 }}
-                                        onClick={onNext}
                                     >
                                         <button
-                                            onClick={onNext}
+                                            onClick={() => window.location.href = 'https://anhnguyenduc205es-art.github.io/giftouyen/index.html?id=aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vZHZ4dTRidDZiL2ltYWdlL3VwbG9hZC92MTc1NTE4Mzg3OS9JTUdfMjk0Ml9na2FpcjYuanBnLGh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL2R2eHU0YnQ2Yi9pbWFnZS91cGxvYWQvdjE3NTUxODM4NzgvSU1HXzI5NDNfeHg2eWF5LmpwZyxodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS9kdnh1NGJ0NmIvaW1hZ2UvdXBsb2FkL3YxNzU1MTgzODc3L0lNR18yOTQxX3dlcDFyei5qcGcsaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vZHZ4dTRidDZiL2ltYWdlL3VwbG9hZC92MTc1NTE4Mzg3Ni9JTUdfMjk0MF9uanFmcXcuanBnLGh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL2R2eHU0YnQ2Yi9pbWFnZS91cGxvYWQvdjE3NTUxODM4NzUvSU1HXzI5MzlfdWVsc3AxLmpwZyxodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS9kdnh1NGJ0NmIvaW1hZ2UvdXBsb2FkL3YxNzU1MTgzODc1L0lNR18yOTM4X2NuNmdwOS5qcGcsaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vZHZ4dTRidDZiL2ltYWdlL3VwbG9hZC92MTc1NTE4Mzg3My9JTUdfMjkzN19ydzN1aGEuanBnLGh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL2R2eHU0YnQ2Yi9pbWFnZS91cGxvYWQvdjE3NTUxODM4NzAvSU1HXzI5MzRfZHBnbHJ4LmpwZyxodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS9kdnh1NGJ0NmIvaW1hZ2UvdXBsb2FkL3YxNzU1MTgzODcxL0lNR18yOTMyX25uaXI2ei5qcGcsaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vZHZ4dTRidDZiL2ltYWdlL3VwbG9hZC92MTc1NTE4Mzg3MS9JTUdfMjkzNV9sOXlta2guanBnLGh0dHBzOi8vcmVzLmNsb3VkaW5hcnkuY29tL2R2eHU0YnQ2Yi9pbWFnZS91cGxvYWQvdjE3NTUxODM4NjkvSU1HXzI5Mjlfd3NiZmI3LmpwZyxodHRwczovL3Jlcy5jbG91ZGluYXJ5LmNvbS9kdnh1NGJ0NmIvaW1hZ2UvdXBsb2FkL3YxNzU1MTgzODcyL0lNR18yOTM2X3hkZ3dvdS5qcGcsaHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vZHZ4dTRidDZiL2ltYWdlL3VwbG9hZC92MTc1NTQ0NDA4MC9JTUdfMjg3Nl9lY3VvMmcuanBn'}
                                             className="inline-flex items-center gap-2 bg-white/60 text-pink-600 font-medium border border-pink-400 px-5 py-2 rounded-full hover:bg-pink-100 transition-all"
                                         >
                                             {/* <RotateCcw className="w-4 h-4" /> */}

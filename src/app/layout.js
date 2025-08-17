@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Happy Birthday!",
-  description: "An animated birthday surprise filled with emotions, words from the heart, and a letter that types itself — just for you."
+  title: "Happy Birthday Uyên!",
+  description: "Một bất ngờ sinh nhật đầy cảm xúc, lời chúc từ trái tim và lá thư tự gõ =))."
 };
 
 export const viewport = {
