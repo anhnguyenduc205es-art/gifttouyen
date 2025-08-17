@@ -13,7 +13,7 @@ import { Mail, Heart, Sparkles, RotateCcw } from "lucide-react"
 import confetti from "canvas-confetti"
 
 
-export default function MailTruck({ onNext }) {
+export default function MailTruck() {
     const [isOpen, setIsOpen] = useState(false)
     const [showText, setShowText] = useState(false)
     const [currentText, setCurrentText] = useState("")
@@ -54,7 +54,7 @@ export default function MailTruck({ onNext }) {
 
 
     return (
-        <div className="mail-truck-component">
+        <div className="mail-truck-component bg-gradient-to-br from-pink-200 via-rose-300 to-purple-300">
             <motion.div
                 className="flex-1 items-center justify-center relative overflow-hidden cursor-pointer"
                 style={{ width: '100%', height: '100%' }}

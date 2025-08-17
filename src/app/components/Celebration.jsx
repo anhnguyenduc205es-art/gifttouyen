@@ -41,7 +41,7 @@ export default function Celebration({ onNext }) {
         // Hiển thị dòng chữ trong 2 giây rồi mới next
         setTimeout(() => {
             onNext()
-        }, 1000)
+        }, 4500)
     }
 
     return (
